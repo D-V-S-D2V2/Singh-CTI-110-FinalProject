@@ -1,0 +1,51 @@
+
+.attribution {
+    font-size: 11px;
+     text-align: center;
+     color: hsl(228, 45%, 44%);
+    }
+.attribution a {
+        
+    }
+
+body {
+    background-color: hsl(0, 0%, 100%);
+}
+
+h1 {
+    color: hsl(300, 43%, 22%)
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 8px;
+}
+
+.parent div{
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+}
+    
+.div1 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    
+}
+
+.div2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 4;
+    grid-row-start: 3;
+}
+
+.div3 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 6;
+    grid-row-start: 4;
+}
